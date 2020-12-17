@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.container {
+display:flex;
+flex-direction: column;
+min-height: 100%;
+max-width: 100%;
+overflow:hidden;
+align-self: center;
+margin: 0px auto;
+background-color: #0074978e;
+}
+
+.body {
+max-width: 80%;
+min-height:100%;
+flex: 1 1 auto;
+margin: 0px auto;
+align-self: center;
+background-color: #FFFFFF;
+}
+
+.navigation {
+
+		&__row {
+        display:flex;
+        align-items:center;
+		}
+
+		&__element {
+
+			&_1 {
+            flex: 1 1 auto;
+            margin: 1% 1% 1% 4%;
+            background: url('/img/gerald') left no-repeat;
+			}
+
+			&_2 {
+            flex: 1 1 auto;
+            margin: 1% 1% 1% 0%;
+            padding: 0% 2% 0% 2%;
+			}
+		}
+
+		&__content {
+        margin: 1% 1% 1% 1%;
+        padding: 0% 2% 0% 2%;
+		}
+
+		&__title {
+        color: #000000;
+        font-family: "Roboto Slab";
+        font-size: 25px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 20px;
+        text-align: left;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        line-height: normal;
+		}
+}
+
+
+.menu {
+display: flex;
+align-items:center;
+
+}
+
+.menulinks {
+display: flex;
+align-items:center;
+
+}
+
+.menulink {
+color: #000000;
+font-family: "Roboto Slab";
+font-size: 15px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 20px;
+text-align: left;
+text-transform: uppercase;
+letter-spacing: 0.5px;
+line-height: normal;
+align-items:center;
+margin: 0px 0px 0px 15px;
+}
+
+.header {
+min-height: 30vh;
+background-image: url('/img/header.jpg'); 
+background-position: 0 0; 
+background-repeat: no-repeat; 
+background-size: 100% 100%;
+margin: 0% 0% 2% 0%;
+}
+
+.block {
+
+		&__row {
+        display:flex;
+		}
+
+		&__element {
+
+			&_1 {
+			flex: 1 1 auto;
+			margin: 2% 2% 2% 2%;
+			}
+
+			&_2 {
+			flex: 1 1 auto;
+			margin: 2% 2% 2% 2%;
+			}
+		}
+
+		&__content {
+		}
+
+		&__text {
+color: #000000;
+font-family: "Roboto Slab";
+font-size: 16px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: 20px;
+text-align: left;
+line-height: normal;
+text-align:justify;
+		}
+}
+
+
+.footer {
+
+	&__content {
+display:flex;
+flex-direction:column;
+background-color: #007397;
+align-items: left;
+	}
+}
+
+.flinks {
+color: #000000;
+font-family: "Roboto Slab";
+font-size: 12px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 20px;
+text-align: left;
+text-transform: uppercase;
+letter-spacing: 0.5px;
+line-height: normal;
+align-items:center;
+margin: 10px 10px 10px 20px;
+}
+
+
+.flinks li {
+margin: 0% 0% 0.4% 0%;
+	}
+
+a {
+color: #ffffff;
+font-family: "Roboto Slab";
+font-size: 12px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 20px;
+text-align: left;
+text-transform: uppercase;
+letter-spacing: 0.5px;
+line-height: normal;
+align-items:center;
+margin: 10px 10px 10px 20px;	
+}
+
+a:hover {
+color: #3f8375;
+  }
+  
+
+.info {
+display:flex;
+justify-content: center;
+
+}
+.infobody {
+display:flex;
+margin: 2% 0% 2% 0%;
+
+}
+.infocolumn {
+text-align: center;
+margin: 0% 3% 0% 0%;
+
+}
+
+.item-stat {
+flex: 1 1 auto;
+flex-wrap:wrap;
+
+}
+
+.value {
+color: #007397;
+font-family: "Roboto Slab";
+font-size: 54px;
+text-transform: uppercase;
+margin: 0px 0px 7px 0px; 	
+}
+
+.infotext {
+color: #88a7c0;
+font-size: 16px;
+text-align: center;
+
+}
+
+
+h2 {
+	color: #ffffff;
+	font-family: "Roboto Slab";
+	font-size: 20px;
+	text-transform: uppercase;
+	margin: 1%; 	
+	}
+
+	
+h3 {
+color: #007397;
+font-family: "Roboto Slab";
+font-size: 40px;
+text-transform: uppercase;
+text-align: center;	
+margin: 0px 0px 7px 0px; 
+}
+
+
+h6 {
+font-family: "Roboto Slab";
+font-size: 18px;
+}
+	
+
+.titul {
+	display:flex;
+	justify-content:center;
+	background-color: #007397;
+	align-self: center;
+	align-items: center;
+	margin: 1% 0% 1% 0%; 
+}
+
+.list{
+margin: 1% 0% 1% 0%;
+}
+
+.list li {
+margin: 2% 0% 0% 0%;
+}
+
+.footer2 {
+display:flex;
+justify-content:center;
+background-color: #007397;
+align-self: center;
+align-items: center;
+margin: 1% 0% 1% 0%; 
+}
+.footertext {
+font-family: "Roboto Slab";
+font-size: 15px;
+padding: 0% 0% 1% 0%;
+margin: 1% 0% 0% 0%;
+}
